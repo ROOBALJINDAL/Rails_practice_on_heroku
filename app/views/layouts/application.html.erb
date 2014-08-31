@@ -17,8 +17,28 @@
 		<li><%= link_to "Pricing ", welcome_pricing_path %></li>
 		<li><%= link_to "Login ", root_path %></li>
 	</ul>
-<%= yield %>
-</div>
+<%= yield %> <br><br>
+	<div class="container">
+			<table class="table table-hover">
+
+			  <thead>
+				<tr>
+				  <th>Live Traffic Feed</th>
+				  <th>Facebook</th>
+				  <th colspan="3"></th>
+				</tr>
+			  </thead>
+
+			  <tbody>
+				  <tr>
+					<td><script type="text/javascript" src="http://feedjit.com/serve/?vv=1512&amp;tft=3&amp;dd=0&amp;wid=01a40f77359fd8b9fb67bf6e138cebaf&amp;pid=0&amp;proid=0&amp;bc=FFFFFF&amp;tc=545454&amp;brd1=CCCCCC&amp;lnk=6AA5C4&amp;hc=878787&amp;hfc=FFFFFF&amp;btn=62BBDE&amp;ww=198&amp;wne=3&amp;srefs=0"></script><noscript><a href="http://feedjit.com/">Live Traffic Stats</a></noscript></td>
+					<td><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FCEXPLORERS.RJ&amp;width&amp;height=400&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=350901661730488" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:400px;" allowTransparency="true"></iframe></td>
+				  </tr>
+				
+			  </tbody>
+			</table>
+		</div>
+	</div>
 
 </body>
 </html>
